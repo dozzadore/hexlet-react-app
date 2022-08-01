@@ -1,0 +1,9 @@
+.Main {
+    width: 600px;
+    height: 400px;
+    margin: 15px;
+    grid-area: m;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}

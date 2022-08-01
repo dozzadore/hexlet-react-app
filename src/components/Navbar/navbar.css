@@ -1,0 +1,10 @@
+.Navbar {
+    width: 150px;
+    height: 400px;
+    margin: 15px;
+    margin-left: 50px;
+    grid-area: n;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}

@@ -2,6 +2,7 @@
     width: 100%;
     height: 150px;
     text-align: center;
+    grid-area: a;
 }
 .headerUp {
     height: 30px;

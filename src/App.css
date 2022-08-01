@@ -1,0 +1,7 @@
+.App {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "a a a"
+    "n m m";
+}
