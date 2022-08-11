@@ -3,5 +3,7 @@
     display: grid;
     grid-template-areas:
     "a a a"
-    "n m m";
+    "m m m";
+    text-align: center;
+    justify-items : center;
 }

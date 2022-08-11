@@ -1,10 +1,27 @@
 .Navbar {
-    width: 150px;
+    width: 200px;
     height: 400px;
     margin: 15px;
     margin-left: 50px;
     grid-area: n;
     border: 1px solid black;
-    border-radius: 15px;
+  
     text-align: center;
 }
+
+
+
+li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:none;
+    list-style: none;
+    background-color: rgb(44, 250, 130);
+    font-family: montserrat;
+    border: 1px solid white;
+}
+ul {
+    padding-left: 0;
+}
+

@@ -6,9 +6,32 @@
 }
 .headerUp {
     height: 30px;
-    background-color: rgb(231, 130, 62);
+    background-color: rgb(62, 231, 132);
+    display: grid;
+    align-items: center;
 }
 .headerDown {
-    height: 120px;
-    background-color: rgb(250, 223, 207);
+    height: 100px;
+    background-color: rgb(164, 248, 209);
+    display: grid;
+    grid-template-columns: 300px 200px;
+    justify-content: start;
+    align-items: end;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: start;
+    align-items: end;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.inputSearch {
+
 }
