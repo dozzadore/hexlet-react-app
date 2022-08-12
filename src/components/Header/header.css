@@ -14,7 +14,7 @@
     height: 70px;
     display: grid;
     background: rgba(27, 27, 27, 0.349);
-    grid-template-columns: 300px 200px;
+    grid-template-columns: 350px 200px;
     justify-content: start;
     align-items: center;
 }

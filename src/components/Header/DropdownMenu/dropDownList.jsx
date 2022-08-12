@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Dropdownlist() {
     return (
         <div className="dropdown">
-            <div className="dropbtn">Dropdown</div>
+            <div className="dropbtn">Equipments</div>
             <div className="dropdown-content">
                 <Link to="/equipment/brands" style={{
                     textDecoration: "none",
