@@ -1,9 +1,13 @@
 .Main {
     width: 80%;
-    height: 400px;
+    height: 460px;
     grid-area: m;
-    border: 1px solid black;
-    border-radius: 15px;
+    background-color: rgba(34, 33, 33, 0.555);
+    border: 1px solid rgb(88, 87, 87);
+    border-radius: 10px;
     text-align: center;
     display: grid;
+    -webkit-box-shadow: -3px 1px 14px 12px rgba(52, 61, 67, 0.52);
+    -moz-box-shadow: -3px 1px 14px 12px rgba(52, 61, 67, 0.52);
+    box-shadow: -3px 1px 14px 12px rgba(52, 61, 67, 0.52);
 }

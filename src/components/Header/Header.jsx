@@ -2,6 +2,8 @@
 import React, {Component} from 'react';
 import './header.css';
 import { Link } from "react-router-dom";
+import DropdownList from './DropdownMenu/dropDownList';
+
 
 
 class Header extends Component{
@@ -17,20 +19,18 @@ class Header extends Component{
       <Link to="/" style={{
           textDecoration: "none",
           color: "black",
-          marginLeft: "20px",
+        
         }}
         >Home</Link>
-        <Link to="/contacts" style={{
+
+      <Link to="/contacts" style={{
           textDecoration: "none",
           color: "black",
-          marginLeft: "20px",
+         
         }}
-        >Invoices</Link>
-        <Link to="/equipment" style={{
-          textDecoration: "none",
-          color: "black",
-          marginLeft: "20px",
-        }}>Expenses</Link>
+        >Contacts</Link>
+      
+        <DropdownList />
         
       </nav>
       <div className='inputSearch'>

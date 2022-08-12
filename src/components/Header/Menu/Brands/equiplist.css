@@ -1,0 +1,28 @@
+.imgJUCKJKT457A {
+    width: 300px;
+    height: 200px;
+    background: url(./Juck/JUCKJK-T457A/JUCKJK-T457A.jpg);
+    background-size: 100% 100%;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.imgJACKJK8558GWZ1 {
+    width: 300px;
+    height: 200px;
+    background: url(./Jack/JackJK-8558G-WZ-1/JackJK-8558G-WZ-1.jpeg);
+    background-size: 100% 100%;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+.mainJUCKJKT457A {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+
+
+h1 {
+    margin: 50px;
+}
+
